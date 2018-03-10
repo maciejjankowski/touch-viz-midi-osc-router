@@ -1,0 +1,38 @@
+Channel Active	/channel/active	0	0.0 to 1.0
+Channel A Clip	/channel/0/clip	5	0.0 to 124.0
+Channel A Clip Speed	/channel/0/speed	7	0.0 to 1.0
+Channel A Clip Position*	/channel/0/position	8	0.0 to 1.0
+Channel B Clip	/channel/1/clip	9	0.0 to 124.0
+Channel B Clip Speed	/channel/1/speed	11	0.0 to 1.0
+Channel B Clip Position*	/channel/1/position	12	0.0 to 1.0
+FX Active	/fx/active	13	0.0 to 2.0
+FX A Effect	/fx/a/fx	20	0.0 to 53.0
+FX A Mix	/fx/a/mix	21	0.0 to 1.0
+FX A Parameter 1	/fx/a/param/0	22	0.0 to 1.0
+FX A Parameter 2	/fx/a/param/1	23	0.0 to 1.0
+FX A Parameter 3	/fx/a/param/2	24	0.0 to 1.0
+FX A Parameter 4	/fx/a/param/3	25	0.0 to 1.0
+FX B Effect	/fx/b/fx	26	0.0 to 53.0
+FX B Mix	/fx/b/mix	27	0.0 to 1.0
+FX B Parameter 1	/fx/b/param/0	28	0.0 to 1.0
+FX B Parameter 2	/fx/b/param/1	29	0.0 to 1.0
+FX B Parameter 3	/fx/b/param/2	30	0.0 to 1.0
+FX B Parameter 4	/fx/b/param/3	31	0.0 to 1.0
+FX Master Effect	/fx/m/fx	32	0.0 to 53.0
+FX Master Mix	/fx/m/mix	33	0.0 to 1.0
+FX Master Parameter 1	/fx/m/param/0	34	0.0 to 1.0
+FX Master Parameter 2	/fx/m/param/1	35	0.0 to 1.0
+FX Master Parameter 3	/fx/m/param/2	36	0.0 to 1.0
+FX Master Parameter 4	/fx/m/param/3	37	0.0 to 1.0
+Media Active	/media/active	38	0.0 to 4.0
+Master Active	/master/active	39	0.0 to 2.0
+Master Mix	/master/mix	40	0.0 to 1.0
+Master Level	/master/level	41	0.0 to 1.0
+Master Red	/master/red	42	0.0 to 1.0
+Master Green	/master/green	43	0.0 to 1.0
+Master Blue	/master/blue	44	0.0 to 1.0
+FX A On	/fx/a/on	45	0.0 to 1.0
+FX B On	/fx/b/on	46	0.0 to 1.0
+FX Master On	/fx/m/on	47	0.0 to 1.0
+Blend Order A>B / B>A	/blend/order	48	0.0 to 1.0
+Blend Mode	/blend/mode	49	0.0 to 9.0

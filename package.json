@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/maciejjankowski/touch-viz-midi-osc-router/issues"
   },
-  "homepage": "https://github.com/maciejjankowski/touch-viz-midi-osc-router#readme"
+  "homepage": "https://github.com/maciejjankowski/touch-viz-midi-osc-router#readme",
+  "dependencies": {
+    "midi": "^0.9.5",
+    "osc": "^2.2.0",
+    "rtpmidi": "^0.1.9"
+  }
 }

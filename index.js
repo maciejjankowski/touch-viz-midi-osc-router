@@ -15,13 +15,13 @@ function scaleValue(inputValue, maxInputValue, maxOutputValue){
 }
 
 oscPort.on("ready", function () {
-  console.log('osc ready')
+  console.log('osc ready');
   var input = new midi.input();
   for (let i = 0; i < input.getPortCount(); i = i + 1){
     if (input.getPortName(i).indexOf('MIDI Mix') > -1){
       input.on('message', (t, message) => {
         let paramProperties = mappingTable[message[1]];
-        let wartosc = scaleValue( message[2], 127, paramProperties.maxValue)
+        let wartosc = scaleValue( message[2], 127, paramProperties.maxValue);
         oscPort.send(
           {
             address: paramProperties.message, 

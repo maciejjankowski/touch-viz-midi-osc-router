@@ -1,6 +1,5 @@
 function transformRow(rowText){
     let row = rowText.split('\t');
-    // console.log(row);
     let minMaxPair = row[3].split(' to ');
     let minValue = parseFloat(minMaxPair[0]);
     let maxValue = parseFloat(minMaxPair[1]);
@@ -21,7 +20,6 @@ function createMappingObject(p, c){
                                 minValue : c.minValue, 
                                 maxValue : c.maxValue
                             };
-        
     }
     return p 
 }

@@ -20,5 +20,9 @@
     "midi": "^0.9.5",
     "osc": "^2.2.0",
     "rtpmidi": "^0.1.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "jshint": "^2.9.5"
   }
 }
